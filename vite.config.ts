@@ -76,6 +76,10 @@ export default defineConfig({
       'react-dom',
       'react-router',
       '@convex-dev/auth/react',
+      '@radix-ui/react-accordion',
+      '@radix-ui/react-collapsible',
+      '@radix-ui/react-collection',
+      '@radix-ui/react-context',
     ],
     // Exclude heavy optional dependencies for faster dev server start
     exclude: ['three', '@react-three/fiber', '@react-three/drei'],
