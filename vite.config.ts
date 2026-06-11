@@ -83,6 +83,6 @@ export default defineConfig({
   // Performance hints
   server: {
     // Enable HMR for faster development
-    hmr: true,
+    hmr: false,
   },
 });
