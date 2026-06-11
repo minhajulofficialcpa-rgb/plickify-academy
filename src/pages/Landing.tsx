@@ -525,7 +525,7 @@ export default function Landing() {
                       <Rocket className="h-5 w-5 text-white" />
                     </div>
                     <div>
-                      <p className="font-bold">AI Income Mastery</p>
+                      <p className="font-bold">Plickify Academy</p>
                       <p className="text-xs text-muted-foreground">Batch 2026</p>
                     </div>
                   </div>
