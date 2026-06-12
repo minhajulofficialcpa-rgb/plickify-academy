@@ -30,3 +30,4 @@
 [{"name":"compile-path","duration":1839,"timestamp":2074727280482,"id":15,"parentId":1,"tags":{"trigger":"middleware"},"startTime":1781272639853,"traceId":"c130cb8d2b26df52"}]
 [{"name":"compile-path","duration":1434,"timestamp":2074727317241,"id":16,"parentId":1,"tags":{"trigger":"middleware"},"startTime":1781272639890,"traceId":"c130cb8d2b26df52"}]
 [{"name":"turbopack-persistence","duration":33000,"timestamp":2074729319191,"id":17,"parentId":3,"tags":{"reason":"idle timeout","snapshot_duration_ms":0.068751,"persist_duration_ms":32.723005,"task_count":64},"startTime":1781272641925,"traceId":"c130cb8d2b26df52"}]
+[{"name":"turbopack-persistence","duration":32000,"timestamp":2074762675717,"id":19,"parentId":3,"tags":{"reason":"idle timeout","snapshot_duration_ms":0.087671,"persist_duration_ms":32.240492,"task_count":64},"startTime":1781272675282,"traceId":"c130cb8d2b26df52"}]
