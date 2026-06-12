@@ -7,15 +7,21 @@
   "/admin/page": "/admin",
   "/admin/products/page": "/admin/products",
   "/admin/users/page": "/admin/users",
+  "/api/downloads/route": "/api/downloads",
+  "/api/orders/route": "/api/orders",
   "/auth/callback/route": "/auth/callback",
   "/auth/page": "/auth",
   "/courses/[slug]/page": "/courses/[slug]",
   "/courses/page": "/courses",
   "/dashboard/batches/page": "/dashboard/batches",
   "/dashboard/courses/page": "/dashboard/courses",
+  "/dashboard/downloads/page": "/dashboard/downloads",
   "/dashboard/lessons/[lessonId]/page": "/dashboard/lessons/[lessonId]",
   "/dashboard/lessons/page": "/dashboard/lessons",
+  "/dashboard/orders/page": "/dashboard/orders",
   "/dashboard/page": "/dashboard",
   "/onboarding/page": "/onboarding",
-  "/page": "/"
+  "/page": "/",
+  "/products/[slug]/page": "/products/[slug]",
+  "/shop/page": "/shop"
 }

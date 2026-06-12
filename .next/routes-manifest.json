@@ -37,6 +37,14 @@
         "nxtPlessonId": "nxtPlessonId"
       },
       "namedRegex": "^/dashboard/lessons/(?<nxtPlessonId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/products/[slug]",
+      "regex": "^/products/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/products/(?<nxtPslug>[^/]+?)(?:/)?$"
     }
   ],
   "staticRoutes": [
@@ -95,6 +103,18 @@
       "namedRegex": "^/admin/users(?:/)?$"
     },
     {
+      "page": "/api/downloads",
+      "regex": "^/api/downloads(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/downloads(?:/)?$"
+    },
+    {
+      "page": "/api/orders",
+      "regex": "^/api/orders(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/orders(?:/)?$"
+    },
+    {
       "page": "/auth",
       "regex": "^/auth(?:/)?$",
       "routeKeys": {},
@@ -131,16 +151,34 @@
       "namedRegex": "^/dashboard/courses(?:/)?$"
     },
     {
+      "page": "/dashboard/downloads",
+      "regex": "^/dashboard/downloads(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/downloads(?:/)?$"
+    },
+    {
       "page": "/dashboard/lessons",
       "regex": "^/dashboard/lessons(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/dashboard/lessons(?:/)?$"
     },
     {
+      "page": "/dashboard/orders",
+      "regex": "^/dashboard/orders(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/orders(?:/)?$"
+    },
+    {
       "page": "/onboarding",
       "regex": "^/onboarding(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/onboarding(?:/)?$"
+    },
+    {
+      "page": "/shop",
+      "regex": "^/shop(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/shop(?:/)?$"
     }
   ],
   "dataRoutes": [],

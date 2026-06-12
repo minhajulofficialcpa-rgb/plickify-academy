@@ -53,6 +53,7 @@ async function middleware(request) {
         "/contact",
         "/shop",
         "/courses",
+        "/products",
         "/certificate",
         "/invoice"
     ];
