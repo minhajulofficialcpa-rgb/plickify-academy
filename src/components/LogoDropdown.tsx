@@ -1,5 +1,7 @@
-// simple logo dropdown component that can be used to go to the landing page or sign out for the user
+"use client";
 
+import { useRouter } from "next/navigation";
+import { createClient } from "@/lib/supabase/client";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -8,39 +10,32 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import logo from "@/assets/logo.svg";
-import { useAuth } from "@/hooks/use-auth";
 import { Home, LogOut } from "lucide-react";
-import { useNavigate } from "react-router";
 
 export function LogoDropdown() {
-  const { isAuthenticated, signOut } = useAuth();
-  const navigate = useNavigate();
+  const router = useRouter();
+  const supabase = createClient();
 
   const handleSignOut = async () => {
     try {
-      await signOut();
-      navigate("/");
+      await supabase.auth.signOut();
+      router.push("/");
     } catch (error) {
       console.error("Sign out error:", error);
     }
   };
 
   const handleGoHome = () => {
-    navigate("/");
+    router.push("/");
   };
 
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="icon" className="h-10 w-10">
-          <img
-            src={logo}
-            alt="Logo"
-            width={32}
-            height={32}
-            className="rounded-lg"
-          />
+          <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-orange-500 flex items-center justify-center">
+            <span className="text-white font-bold text-xs">P</span>
+          </div>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="start" className="w-48">
@@ -48,7 +43,6 @@ export function LogoDropdown() {
           <Home className="mr-2 h-4 w-4" />
           Landing Page
         </DropdownMenuItem>
-        {isAuthenticated && (
           <>
             <DropdownMenuSeparator />
             <DropdownMenuItem
@@ -59,7 +53,6 @@ export function LogoDropdown() {
               Sign Out
             </DropdownMenuItem>
           </>
-        )}
       </DropdownMenuContent>
     </DropdownMenu>
   );
