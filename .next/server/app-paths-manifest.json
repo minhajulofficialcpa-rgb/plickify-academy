@@ -1,7 +1,12 @@
 {
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
+  "/admin/batches/page": "app/admin/batches/page.js",
+  "/admin/courses/page": "app/admin/courses/page.js",
+  "/admin/lessons/page": "app/admin/lessons/page.js",
   "/admin/page": "app/admin/page.js",
+  "/admin/products/page": "app/admin/products/page.js",
+  "/admin/users/page": "app/admin/users/page.js",
   "/auth/callback/route": "app/auth/callback/route.js",
   "/auth/page": "app/auth/page.js",
   "/courses/[slug]/page": "app/courses/[slug]/page.js",

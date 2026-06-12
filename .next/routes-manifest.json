@@ -65,6 +65,36 @@
       "namedRegex": "^/admin(?:/)?$"
     },
     {
+      "page": "/admin/batches",
+      "regex": "^/admin/batches(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/batches(?:/)?$"
+    },
+    {
+      "page": "/admin/courses",
+      "regex": "^/admin/courses(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/courses(?:/)?$"
+    },
+    {
+      "page": "/admin/lessons",
+      "regex": "^/admin/lessons(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/lessons(?:/)?$"
+    },
+    {
+      "page": "/admin/products",
+      "regex": "^/admin/products(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/products(?:/)?$"
+    },
+    {
+      "page": "/admin/users",
+      "regex": "^/admin/users(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/users(?:/)?$"
+    },
+    {
       "page": "/auth",
       "regex": "^/auth(?:/)?$",
       "routeKeys": {},
