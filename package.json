@@ -42,7 +42,6 @@
     "@vly-ai/integrations": "^0.6.12",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "convex": "^1.41.0",
     "date-fns": "^4.1.0",
     "framer-motion": "^12.40.0",
     "input-otp": "^1.4.2",
