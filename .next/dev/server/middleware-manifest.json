@@ -1,0 +1,38 @@
+{
+  "version": 3,
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/node_modules_next_dist_0mazdtu._.js",
+        "server/edge/chunks/node_modules_@opentelemetry_api_build_esm_0kzx3vg._.js",
+        "server/edge/chunks/node_modules_@supabase_postgrest-js_dist_index_mjs_0z8uxkg._.js",
+        "server/edge/chunks/node_modules_@supabase_auth-js_dist_module_0focj3n._.js",
+        "server/edge/chunks/node_modules_1in2swk._.js",
+        "server/edge/chunks/[root-of-the-server]__13jvavz._.js",
+        "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_1gbermx.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "entrypoint": "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_1gbermx.js",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!_next\\/static|_next\\/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*))(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+          "originalSource": "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "NuhL1kGJJlrJz3jmfrdB0C0MjLV6kkDKLvZE+TC+jV8=",
+        "__NEXT_PREVIEW_MODE_ID": "fdf52a9909a7c5d1c6908bd89850d455",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "8294499e9464d9462d02bcd1ce258758102344166e23a12b27b1466120a47715",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "92269af916802e7911aa7daf1eb0e63c46c48a4a5550aa087e31886c7a6ee2b2"
+      }
+    }
+  },
+  "sortedMiddleware": [
+    "/"
+  ],
+  "functions": {}
+}
