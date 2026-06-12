@@ -4,6 +4,12 @@
   "/admin/page": "/admin",
   "/auth/callback/route": "/auth/callback",
   "/auth/page": "/auth",
+  "/courses/[slug]/page": "/courses/[slug]",
+  "/courses/page": "/courses",
+  "/dashboard/batches/page": "/dashboard/batches",
+  "/dashboard/courses/page": "/dashboard/courses",
+  "/dashboard/lessons/[lessonId]/page": "/dashboard/lessons/[lessonId]",
+  "/dashboard/lessons/page": "/dashboard/lessons",
   "/dashboard/page": "/dashboard",
   "/onboarding/page": "/onboarding",
   "/page": "/"

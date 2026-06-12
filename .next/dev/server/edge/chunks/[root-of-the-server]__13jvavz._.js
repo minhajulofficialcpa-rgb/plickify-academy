@@ -51,7 +51,10 @@ async function middleware(request) {
         "/auth",
         "/about",
         "/contact",
-        "/shop"
+        "/shop",
+        "/courses",
+        "/certificate",
+        "/invoice"
     ];
     const isPublicRoute = publicRoutes.some((route)=>pathname === route || pathname.startsWith(route + "/"));
     // API routes

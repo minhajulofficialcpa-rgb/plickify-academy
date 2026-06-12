@@ -4,6 +4,12 @@
   "/admin/page": "app/admin/page.js",
   "/auth/callback/route": "app/auth/callback/route.js",
   "/auth/page": "app/auth/page.js",
+  "/courses/[slug]/page": "app/courses/[slug]/page.js",
+  "/courses/page": "app/courses/page.js",
+  "/dashboard/batches/page": "app/dashboard/batches/page.js",
+  "/dashboard/courses/page": "app/dashboard/courses/page.js",
+  "/dashboard/lessons/[lessonId]/page": "app/dashboard/lessons/[lessonId]/page.js",
+  "/dashboard/lessons/page": "app/dashboard/lessons/page.js",
   "/dashboard/page": "app/dashboard/page.js",
   "/onboarding/page": "app/onboarding/page.js",
   "/page": "app/page.js"

@@ -21,7 +21,24 @@
     "afterFiles": [],
     "fallback": []
   },
-  "dynamicRoutes": [],
+  "dynamicRoutes": [
+    {
+      "page": "/courses/[slug]",
+      "regex": "^/courses/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/courses/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/dashboard/lessons/[lessonId]",
+      "regex": "^/dashboard/lessons/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPlessonId": "nxtPlessonId"
+      },
+      "namedRegex": "^/dashboard/lessons/(?<nxtPlessonId>[^/]+?)(?:/)?$"
+    }
+  ],
   "staticRoutes": [
     {
       "page": "/",
@@ -60,10 +77,34 @@
       "namedRegex": "^/auth/callback(?:/)?$"
     },
     {
+      "page": "/courses",
+      "regex": "^/courses(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/courses(?:/)?$"
+    },
+    {
       "page": "/dashboard",
       "regex": "^/dashboard(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/dashboard/batches",
+      "regex": "^/dashboard/batches(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/batches(?:/)?$"
+    },
+    {
+      "page": "/dashboard/courses",
+      "regex": "^/dashboard/courses(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/courses(?:/)?$"
+    },
+    {
+      "page": "/dashboard/lessons",
+      "regex": "^/dashboard/lessons(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/lessons(?:/)?$"
     },
     {
       "page": "/onboarding",
